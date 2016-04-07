@@ -16,6 +16,12 @@ class GenusController extends Controller
      */
     public function showAction($genusName)
     {
-        return $this->render('genus/show.html.twig',['name'=> $genusName]);
+        $toDos = [
+            'Skype with kids',
+            'Learn symfony more',
+            'Buy milk',
+            'Watch the new TV show episode'
+        ];
+        return $this->render('genus/show.html.twig',['name'=> $genusName,'toDos' => $toDos]);
     }
 }

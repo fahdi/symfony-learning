@@ -1,2 +1,9 @@
-<h1>The Genus is {{ name }}</h1>
-{{ dump() }}
+{% extends 'base.html.twig' %}
+{% block body %}
+    <h1>My To dos</h1>
+    <ul>
+        {% for toDo in toDos %}
+            <li>{{ toDo }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
