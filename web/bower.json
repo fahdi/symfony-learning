@@ -1,0 +1,21 @@
+{
+  "name": "Symfony Learning",
+  "homepage": "https://github.com/fahdi/symfony-learning",
+  "authors": [
+    "Fahad Murtaza <fahdim@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
