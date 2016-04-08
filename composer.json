@@ -1,4 +1,5 @@
 {
+    "description" : "Symfony 3 test project",
     "name": "fahadmurtaza/symfony.learning.project",
     "license": "proprietary",
     "type": "project",
