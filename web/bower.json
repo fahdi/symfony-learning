@@ -17,6 +17,7 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.6",
-    "susy": "^2.2.12"
+    "susy": "^2.2.12",
+    "foundation": "^5.5.3"
   }
 }
